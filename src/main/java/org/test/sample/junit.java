@@ -24,7 +24,7 @@ public class junit {
 	@AfterClass
 	public static void afterClass() {
 		System.out.println("after class");
-		
+		System.out.println("after class");
 		
 }
 	
@@ -38,6 +38,7 @@ public class junit {
 		WebElement login=driver.findElement(By.id("u_0_2"));
 		login.click();
 	}
+	
 @After
 public  void after() {
 	System.out.println("after");
